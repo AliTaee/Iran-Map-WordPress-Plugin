@@ -34,52 +34,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 }
 
-function iranmap_display_settings_page ( ) {
+// if admin area
+if( is_admin() ) {
 
-    // check if user allowed access
-    if ( ! current_user_can ( 'manage_options' ) ) return;
-
-    ?>
-
-    <div class="wrap">
-        <h1> <?php echo esc_html( get_admin_page_title ( ) ); // display plugin name as page title ?> </h1>
-
-        <?php // display form settings ?>
-        <form action="option.php" method="post">
-
-            <?php // using WordPress function
-
-                // out put security fields 
-                settings_fields( 'iranmap_options' );
-
-                // out put settings sections - menu slug
-                do_settings_sections( 'iranmap' );
-
-                // submit button
-                submit_button( );
-            ?>
-
-        </form>
-    </div>
-
-    <?php
-}
-
-
-
-// add top-level administrative menu
-function iranmap_add_top_level_menu ( ) {
-    
-    // add menu title, menu name, who can access, url, icon, order
-    add_menu_page( 
-        'Iran Map',
-        'Iran Map Settings',
-        'manage_options',
-        'iran-map',
-        'iranmap_display_settings_page',
-        'dashicons-location-alt',
-        null
-    );
+    // include dependencies
+    include_once plugin_dir_path( __FILE__ ) . 'admin/admin-menu.php';
+    include_once plugin_dir_path( __FILE__ ) . 'admin/settings-page.php';
 
 }
-add_action( 'admin_menu', 'iranmap_add_top_level_menu' );
