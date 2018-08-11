@@ -13,22 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // add top-level administrative menu
 function iran_map_add_toplevel_menu() {
-
-    /* 
-		add_menu_page(
-			string   $page_title, 
-			string   $menu_title, 
-			string   $capability, 
-			string   $menu_slug, 
-			callable $function = '', 
-			string   $icon_url = '', 
-			int      $position = null 
-		)
-	*/
 	
 	add_menu_page(
-		'Iran Map Settings',
-		'Iran Map',
+		__( 'Iran Map Settings', 'iran-map' ),
+		__( 'Iran Map', 'iran-map' ),
 		'manage_options',
 		'iran-map',
 		'iran_map_display_settings_page',
@@ -38,4 +26,3 @@ function iran_map_add_toplevel_menu() {
 	
 }
 add_action( 'admin_menu', 'iran_map_add_toplevel_menu' );
-

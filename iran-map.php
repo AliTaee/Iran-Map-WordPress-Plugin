@@ -27,6 +27,8 @@ You should have received a copy of the GNU General Public License
 with this program. If not, visit: https://www.gnu.org/licenses/
 */
 
+
+
 // Exit if file called directly
 if ( ! defined( 'ABSPATH' ) ) {
 
@@ -34,11 +36,28 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 }
 
-// if admin area
-if( is_admin() ) {
 
-    // include dependencies
+
+// if admin area
+if ( is_admin() ) {
+
+    // include dependencies in admin area
     include_once plugin_dir_path( __FILE__ ) . 'admin/admin-menu.php';
 	include_once plugin_dir_path( __FILE__ ) . 'admin/settings-page.php';
 	
 }
+
+
+
+// include dependencies in public area
+include_once plugin_dir_path( __FILE__ ) . 'public/display-map.php';
+
+
+
+// load text domain
+function iran_map_load_textdomain() {
+	
+	load_plugin_textdomain( 'iran-map', false, plugin_dir_path( __FILE__ ) . 'languages/' );
+	
+}
+add_action( 'plugins_loaded', 'iran_map_load_textdomain' );
