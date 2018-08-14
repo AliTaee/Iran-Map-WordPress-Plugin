@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function iran_map_add_toplevel_menu() {
 	
 	add_menu_page(
-		esc_html__( 'Iran Map Settings', 'iran-map' ),
+		esc_html__( 'Iran Map', 'iran-map' ),
 		esc_html__( 'Iran Map', 'iran-map' ),
 		'manage_options',
 		'iran-map',

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iran Map\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-13 16:53+0000\n"
+"POT-Creation-Date: 2018-08-14 20:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -23,40 +23,36 @@ msgstr ""
 msgid "Iran Map"
 msgstr ""
 
-#: admin/settings-callbacks.php:26
-msgid "These settings enable you to customize the iran map colors."
+#: admin/settings-callbacks.php:49
+msgid "These settings enable you to customize the iran map plugin."
 msgstr ""
 
-#: admin/settings-callbacks.php:42
+#: admin/settings-callbacks.php:65
 msgid "Default"
 msgstr ""
 
-#: admin/settings-callbacks.php:43
+#: admin/settings-callbacks.php:66
 msgid "Persian Green"
 msgstr ""
 
-#: admin/settings-callbacks.php:44
+#: admin/settings-callbacks.php:67
 msgid "Color full"
 msgstr ""
 
-#: admin/settings-callbacks.php:45
+#: admin/settings-callbacks.php:68
 msgid "Black and white"
 msgstr ""
 
-#: admin/settings-callbacks.php:46
+#: admin/settings-callbacks.php:69
 msgid "Persian Blue"
 msgstr ""
 
-#: admin/settings-callbacks.php:47
-msgid "Orange"
-msgstr ""
-
-#: admin/settings-callbacks.php:48
+#: admin/settings-callbacks.php:70
 msgid "Cyan"
 msgstr ""
 
 #: admin/settings-register.php:26
-msgid "Customize Iran Map color"
+msgid "Customize Iran Map"
 msgstr ""
 
 #: admin/settings-register.php:34

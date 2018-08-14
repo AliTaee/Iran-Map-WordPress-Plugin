@@ -23,7 +23,7 @@ function iran_map_register_settings() {
 
 	add_settings_section( 
         'iran_map_section_color', 
-        esc_html__( 'Customize Iran Map color', 'iran-map' ),
+        esc_html__( 'Customize Iran Map', 'iran-map' ),
 		'iran_map_callback_section_color', 
 		'iran-map'
 	);

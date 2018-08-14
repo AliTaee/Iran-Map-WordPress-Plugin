@@ -46,7 +46,7 @@ function iran_map_callback_validate_options($input) {
 // callback: login section
 function iran_map_callback_section_color() {
 	
-	echo '<p>' . esc_html__( 'These settings enable you to customize the iran map colors.', 'iran-map' ) . '</p>';
+	echo '<p>' . esc_html__( 'These settings enable you to customize the iran map plugin.', 'iran-map' ) . '</p>';
 	
 }
 

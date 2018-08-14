@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Iran Map\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-14 19:58+0000\n"
+"POT-Creation-Date: 2018-08-14 20:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -14,17 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
 
-#: admin/admin-menu.php:18
-msgid "Iran Map Settings"
-msgstr ""
-
 #. Name of the plugin
-#: admin/admin-menu.php:19
+#: admin/admin-menu.php:18 admin/admin-menu.php:19
 msgid "Iran Map"
 msgstr ""
 
 #: admin/settings-callbacks.php:49
-msgid "These settings enable you to customize the iran map colors."
+msgid "These settings enable you to customize the iran map plugin."
 msgstr ""
 
 #: admin/settings-callbacks.php:65
@@ -52,7 +48,7 @@ msgid "Cyan"
 msgstr ""
 
 #: admin/settings-register.php:26
-msgid "Customize Iran Map color"
+msgid "Customize Iran Map"
 msgstr ""
 
 #: admin/settings-register.php:34
