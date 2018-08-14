@@ -26,7 +26,7 @@ function iran_map_display_settings_page() {
 			<?php
 			
 			// output security fields
-			settings_fields( 'myplugin_options' );
+			settings_fields( 'iran_map_options' );
 			
 			// output setting sections
 			do_settings_sections( 'iran-map' );

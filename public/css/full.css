@@ -1,0 +1,37 @@
+/* Full color */
+
+
+/* hormozgan - isfahan - ahamdean - azar bauijan sharghi */
+#IRN3228, #IRN3211, #IRN3233, #IRN3238 { fill: #0a71b5; }
+
+
+/* kerman - khozestan - semnan - kurdestan - gilan */
+#IRN3248, #IRN3219, #IRN3215, #IRN3241, #IRN3240 { fill: #00932f; }
+
+
+/* fars - kurdestan - mazandaran */
+#IRN3212, #IRN3239, #IRN3214 { fill: #e1001a; }
+
+
+/* yazd - lorestan - tehran */
+#IRN3217, #IRN3220, #IRN3216 { fill: #f09300; }
+
+
+/* sistan va blochestan - kohgiloye va boyer ahmad - ilam - khorasan shomali - azar bayijan gharbi */
+#IRN3247, #IRN3209, #IRN3221, #IRN3232, #IRN3246, #IRN3237 { fill: #803588; }
+
+
+/* bosher - khorasan jonobi - golestan */
+#IRN3210, #IRN3244, #IRN3213, #IRN3235 { fill: #00378a; }
+
+
+/* razavi - markazi - ardebil */
+#IRN3245, #IRN3231, #IRN3230 { fill: #e00019; }
+
+
+/* chahar mahale bakhtiyari - zanjan - karaj */
+#IRN3218, #IRN3234, #IRN5490 { fill: #e85c0e; }
+
+
+#iran-map-plugin path:hover { fill: #7c7c7c; }
+

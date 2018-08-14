@@ -5,7 +5,7 @@ Plugin Name:    Iran Map
 Description:    Interactive Iran Map, admin can link each city to spicific link. 
 Author:         Ali Taee
 Author uri:     www.alitaee.xyz
-Version:        0.2.0
+Version:        0.4.0
 License:        GPL2
 License URI:    https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    iran-map
@@ -43,14 +43,20 @@ if ( is_admin() ) {
 
     // include dependencies in admin area
     include_once plugin_dir_path( __FILE__ ) . 'admin/admin-menu.php';
-	include_once plugin_dir_path( __FILE__ ) . 'admin/settings-page.php';
-	
+    include_once plugin_dir_path( __FILE__ ) . 'admin/settings-page.php';
+    include_once plugin_dir_path( __FILE__ ) . 'admin/settings-register.php';
+    include_once plugin_dir_path( __FILE__ ) . 'admin/settings-callbacks.php';
+    
 }
 
 
 
 // include dependencies in public area
 include_once plugin_dir_path( __FILE__ ) . 'public/display-map.php';
+
+
+// include dependencies in public and admin area
+include_once plugin_dir_path( __FILE__ ) . 'core/core-functions.php';
 
 
 
@@ -61,3 +67,27 @@ function iran_map_load_textdomain() {
 	
 }
 add_action( 'plugins_loaded', 'iran_map_load_textdomain' );
+
+
+
+// remove options on uninstall
+function iran_map_on_uninstall() {
+
+	if ( ! current_user_can( 'activate_plugins' ) ) return;
+
+	delete_option( 'iran_map_options' );
+
+}
+register_uninstall_hook( __FILE__, 'iran_map_on_uninstall' );
+
+
+
+
+// default plugin options
+function iran_map_options_default() {
+
+	return array(
+		'custom_color'     => 'default',
+	);
+
+}

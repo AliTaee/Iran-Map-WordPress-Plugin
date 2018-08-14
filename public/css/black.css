@@ -1,0 +1,5 @@
+/* black color */
+
+#iran-map-plugin { fill: #212121; }
+
+#iran-map-plugin path:hover { fill: #191919; }
