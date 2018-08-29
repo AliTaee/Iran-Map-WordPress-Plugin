@@ -2,10 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-29 22:39+0430\n"
-"PO-Revision-Date: 2018-08-29 22:39+0430\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2018-08-29 22:45+0430\n"
 "Language-Team: \n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,64 +11,66 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: en\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/admin-menu.php:18 admin/admin-menu.php:19
 msgid "Iran Map"
-msgstr ""
+msgstr "نقشه ایران"
 
 #: admin/settings-callbacks.php:49
 msgid "These settings enable you to customize the iran map plugin."
-msgstr ""
+msgstr "این تنظیمات به شما اجازه می دهند افزونه نقشه ایران را شخصی سازی نمایید."
 
 #: admin/settings-callbacks.php:56
 msgid "These settings enable you to inset link for each city."
-msgstr ""
+msgstr "این تنظیمات به شما اجازه می دهند برای هر شهر یک لینک درج نمایید."
 
 #: admin/settings-callbacks.php:72
 msgid "Default"
-msgstr ""
+msgstr "پیش فرض"
 
 #: admin/settings-callbacks.php:73
 msgid "Persian Green"
-msgstr ""
+msgstr "سبز ایرانی"
 
 #: admin/settings-callbacks.php:74
 msgid "Color full"
-msgstr ""
+msgstr "رنگین کمان"
 
 #: admin/settings-callbacks.php:75
 msgid "Black and white"
-msgstr ""
+msgstr "سیاه و سفید"
 
 #: admin/settings-callbacks.php:76
 msgid "Persian Blue"
-msgstr ""
+msgstr "آبی ایرانی"
 
 #: admin/settings-callbacks.php:77
 msgid "Cyan"
-msgstr ""
+msgstr "فیروزه ای"
 
 #: admin/settings-register.php:26
 msgid "Customize Iran Map"
-msgstr ""
+msgstr "شخصی سازی نقشه ایران"
 
 #: admin/settings-register.php:34
 msgid "Insert link"
-msgstr ""
+msgstr "لینک را درج نمایید"
 
 #: admin/settings-register.php:42
 msgid "Custom color"
-msgstr ""
+msgstr "رنگ سفارشی"
 
 #: admin/settings-register.php:46
 msgid "Select color scheme for iran map"
-msgstr ""
+msgstr "رنگ تم نقشه ایران را انتخاب نمایید"
 
 #: admin/settings-register.php:52
 msgid "Esfahan link"
-msgstr ""
+msgstr "لینک اصفهان"
 
 #: admin/settings-register.php:56
 msgid "Insert link for esfahah"
-msgstr ""
+msgstr "لینک اصفهان را درج نمایید"

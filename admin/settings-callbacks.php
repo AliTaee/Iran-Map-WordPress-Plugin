@@ -43,10 +43,17 @@ function iran_map_callback_validate_options($input) {
 }
 
 
-// callback: login section
+// callback: color section
 function iran_map_callback_section_color() {
 	
-	echo '<p>' . esc_html__( 'These settings enable you to customize the iran map plugin.', 'iran-map' ) . '</p>';
+	echo '<p>' . __( 'These settings enable you to customize the iran map plugin.', 'iran-map' ) . '</p>';
+	
+}
+
+// callback: insert link section
+function iran_map_callback_insert_link() {
+	
+	echo '<p>' . __( 'These settings enable you to inset link for each city.', 'iran-map' ) . '</p>';
 	
 }
 
@@ -62,12 +69,12 @@ function iran_map_color_callback_field_select( $args ) {
 	
 	$select_options = array(
 		
-		'default'   	=> esc_html__( 'Default', 'iran-map' ),
-		'green'     	=> esc_html__( 'Persian Green', 'iran-map' ),
-		'full'        	=> esc_html__( 'Color full', 'iran-map' ),
-		'black'   		=> esc_html__( 'Black and white', 'iran-map' ),
-		'blue' 			=> esc_html__( 'Persian Blue', 'iran-map' ),
-		'cyan'     		=> esc_html__( 'Cyan', 'iran-map' ),
+		'default'   	=> __( 'Default', 'iran-map' ),
+		'green'     	=> __( 'Persian Green', 'iran-map' ),
+		'full'        	=> __( 'Color full', 'iran-map' ),
+		'black'   		=> __( 'Black and white', 'iran-map' ),
+		'blue' 			=> __( 'Persian Blue', 'iran-map' ),
+		'cyan'     		=> __( 'Cyan', 'iran-map' ),
 		
 	);
 	
@@ -84,4 +91,21 @@ function iran_map_color_callback_field_select( $args ) {
 	echo '</select> <label for="iran_map_options_'. $id .'">'. $label .'</label>';
 
 
+}
+
+
+
+// callback: text field
+function iran_map_callback_field_text( $args ) {
+	
+	$options = get_option( 'iran_map_options', iran_map_options_default() );
+	
+	$id    = isset( $args['id'] )    ? $args['id']    : '';
+	$label = isset( $args['label'] ) ? $args['label'] : '';
+	
+	$value = isset( $options[$id] ) ? sanitize_text_field( $options[$id] ) : '';
+	
+	echo '<input id="iran_map_options_'. $id .'" name="iran_map_options['. $id .']" type="text" size="40" value="'. $value .'"><br />';
+	echo '<label for="iran_map_options_'. $id .'">'. $label .'</label>';
+	
 }

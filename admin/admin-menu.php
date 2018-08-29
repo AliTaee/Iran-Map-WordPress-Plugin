@@ -11,12 +11,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-// add top-level administrative menu
+// add top-level administrative menu ,
 function iran_map_add_toplevel_menu() {
 	
 	add_menu_page(
-		esc_html__( 'Iran Map', 'iran-map' ),
-		esc_html__( 'Iran Map', 'iran-map' ),
+		__( 'Iran Map', 'iran-map' ),
+		__( 'Iran Map', 'iran-map' ),
 		'manage_options',
 		'iran-map',
 		'iran_map_display_settings_page',
