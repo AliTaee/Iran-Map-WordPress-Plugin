@@ -5,7 +5,7 @@ Plugin Name:    Iran Map
 Description:    Interactive Iran Map, admin can link each city to spicific link. 
 Author:         Ali Taee
 Author uri:     www.alitaee.xyz
-Version:        0.5.0
+Version:        0.6.0
 License:        GPL2
 License URI:    https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    iran-map
@@ -46,8 +46,10 @@ if ( is_admin() ) {
     include_once plugin_dir_path( __FILE__ ) . 'admin/settings-page.php';
     include_once plugin_dir_path( __FILE__ ) . 'admin/settings-register.php';
     include_once plugin_dir_path( __FILE__ ) . 'admin/settings-callbacks.php';
+    include_once plugin_dir_path( __FILE__ ) . 'admin/settings-validate.php';
     
 }
+
 
 
 
@@ -60,6 +62,7 @@ include_once plugin_dir_path( __FILE__ ) . 'core/core-functions.php';
 
 
 
+
 // load text domain
 function iran_map_load_textdomain() {
 	
@@ -67,6 +70,8 @@ function iran_map_load_textdomain() {
 	
 }
 add_action( 'plugins_loaded', 'iran_map_load_textdomain' );
+
+
 
 
 // remove options on uninstall
@@ -86,8 +91,7 @@ register_uninstall_hook( __FILE__, 'iran_map_on_uninstall' );
 function iran_map_options_default() {
 
 	return array(
-        'custom_color'          => 'default',
-        'iran_map_insert_link'   => 'www.yoursite.com/custom-link',
+        'custom_color'           => 'default',
 	);
 
 }

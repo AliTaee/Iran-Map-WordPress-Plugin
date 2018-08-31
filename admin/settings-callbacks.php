@@ -1,4 +1,4 @@
-<?php 
+<?php // iran map - callbacks functions
 
 
 
@@ -11,40 +11,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-// validate plugin settings
-function iran_map_callback_validate_options($input) {
-	
-	// custom scheme
-	$select_options = array(
-		
-		'default'   		=> 'Default',
-		'green'     		=> 'Persian Green',
-		'full'        		=> 'Color full',
-		'black'   			=> 'Black and white',
-		'blue' 				=> 'Persian Blue',
-		'cyan'     			=> 'Cyan',
-		
-	);
-	
-	if ( ! isset( $input['custom_color'] ) ) {
-		
-		$input['custom_color'] = null;
-		
-	}
-	
-	if ( ! array_key_exists( $input['custom_color'], $select_options ) ) {
-		
-		$input['custom_color'] = null;
-	
-	}
-	
-	return $input;
-	
-}
-
-
 // callback: color section
-function iran_map_callback_section_color() {
+function iran_map_callback_section_settings() {
 	
 	echo '<p>' . __( 'These settings enable you to customize the iran map plugin.', 'iran-map' ) . '</p>';
 	
@@ -107,5 +75,15 @@ function iran_map_callback_field_text( $args ) {
 	
 	echo '<input id="iran_map_options_'. $id .'" name="iran_map_options['. $id .']" type="text" size="40" value="'. $value .'"><br />';
 	echo '<label for="iran_map_options_'. $id .'">'. $label .'</label>';
+	
+}
+
+
+
+// callback: show map shortcut
+function iran_map_callback_show_map() {
+	
+	echo '[display_iran_map]<br />';
+	_e( 'Copy this shortcut to display map' , 'iran-map' );
 	
 }

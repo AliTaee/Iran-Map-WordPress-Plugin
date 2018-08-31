@@ -1,7 +1,8 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-29 22:39+0430\n"
+"POT-Creation-Date: 2018-08-31 16:56+0430\n"
 "PO-Revision-Date: 2018-08-29 22:39+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -19,36 +20,40 @@ msgstr ""
 msgid "Iran Map"
 msgstr ""
 
-#: admin/settings-callbacks.php:49
+#: admin/settings-callbacks.php:17
 msgid "These settings enable you to customize the iran map plugin."
 msgstr ""
 
-#: admin/settings-callbacks.php:56
+#: admin/settings-callbacks.php:24
 msgid "These settings enable you to inset link for each city."
 msgstr ""
 
-#: admin/settings-callbacks.php:72
+#: admin/settings-callbacks.php:40
 msgid "Default"
 msgstr ""
 
-#: admin/settings-callbacks.php:73
+#: admin/settings-callbacks.php:41
 msgid "Persian Green"
 msgstr ""
 
-#: admin/settings-callbacks.php:74
+#: admin/settings-callbacks.php:42
 msgid "Color full"
 msgstr ""
 
-#: admin/settings-callbacks.php:75
+#: admin/settings-callbacks.php:43
 msgid "Black and white"
 msgstr ""
 
-#: admin/settings-callbacks.php:76
+#: admin/settings-callbacks.php:44
 msgid "Persian Blue"
 msgstr ""
 
-#: admin/settings-callbacks.php:77
+#: admin/settings-callbacks.php:45
 msgid "Cyan"
+msgstr ""
+
+#: admin/settings-callbacks.php:87
+msgid "Copy this shortcut to display map"
 msgstr ""
 
 #: admin/settings-register.php:26
@@ -59,18 +64,22 @@ msgstr ""
 msgid "Insert link"
 msgstr ""
 
-#: admin/settings-register.php:42
-msgid "Custom color"
-msgstr ""
-
-#: admin/settings-register.php:46
-msgid "Select color scheme for iran map"
+#: admin/settings-register.php:43
+msgid "Show map"
 msgstr ""
 
 #: admin/settings-register.php:52
-msgid "Esfahan link"
+msgid "Custom color"
 msgstr ""
 
 #: admin/settings-register.php:56
+msgid "Select color scheme for iran map"
+msgstr ""
+
+#: admin/settings-register.php:62
+msgid "Esfahan link"
+msgstr ""
+
+#: admin/settings-register.php:66
 msgid "Insert link for esfahah"
 msgstr ""

@@ -1,9 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-29 22:39+0430\n"
-"PO-Revision-Date: 2018-08-29 22:45+0430\n"
+"POT-Creation-Date: 2018-08-31 16:56+0430\n"
+"PO-Revision-Date: 2018-08-31 16:58+0430\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,45 +13,47 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"Last-Translator: \n"
-"Language: en\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/admin-menu.php:18 admin/admin-menu.php:19
 msgid "Iran Map"
 msgstr "نقشه ایران"
 
-#: admin/settings-callbacks.php:49
+#: admin/settings-callbacks.php:17
 msgid "These settings enable you to customize the iran map plugin."
 msgstr "این تنظیمات به شما اجازه می دهند افزونه نقشه ایران را شخصی سازی نمایید."
 
-#: admin/settings-callbacks.php:56
+#: admin/settings-callbacks.php:24
 msgid "These settings enable you to inset link for each city."
 msgstr "این تنظیمات به شما اجازه می دهند برای هر شهر یک لینک درج نمایید."
 
-#: admin/settings-callbacks.php:72
+#: admin/settings-callbacks.php:40
 msgid "Default"
 msgstr "پیش فرض"
 
-#: admin/settings-callbacks.php:73
+#: admin/settings-callbacks.php:41
 msgid "Persian Green"
 msgstr "سبز ایرانی"
 
-#: admin/settings-callbacks.php:74
+#: admin/settings-callbacks.php:42
 msgid "Color full"
 msgstr "رنگین کمان"
 
-#: admin/settings-callbacks.php:75
+#: admin/settings-callbacks.php:43
 msgid "Black and white"
 msgstr "سیاه و سفید"
 
-#: admin/settings-callbacks.php:76
+#: admin/settings-callbacks.php:44
 msgid "Persian Blue"
 msgstr "آبی ایرانی"
 
-#: admin/settings-callbacks.php:77
+#: admin/settings-callbacks.php:45
 msgid "Cyan"
 msgstr "فیروزه ای"
+
+#: admin/settings-callbacks.php:87
+msgid "Copy this shortcut to display map"
+msgstr "جهت نمایش نقشه این شورت کات را کپی نمایید"
 
 #: admin/settings-register.php:26
 msgid "Customize Iran Map"
@@ -59,18 +63,22 @@ msgstr "شخصی سازی نقشه ایران"
 msgid "Insert link"
 msgstr "لینک را درج نمایید"
 
-#: admin/settings-register.php:42
+#: admin/settings-register.php:43
+msgid "Show map"
+msgstr "نمایش نقشه"
+
+#: admin/settings-register.php:52
 msgid "Custom color"
 msgstr "رنگ سفارشی"
 
-#: admin/settings-register.php:46
+#: admin/settings-register.php:56
 msgid "Select color scheme for iran map"
 msgstr "رنگ تم نقشه ایران را انتخاب نمایید"
 
-#: admin/settings-register.php:52
+#: admin/settings-register.php:62
 msgid "Esfahan link"
 msgstr "لینک اصفهان"
 
-#: admin/settings-register.php:56
+#: admin/settings-register.php:66
 msgid "Insert link for esfahah"
 msgstr "لینک اصفهان را درج نمایید"

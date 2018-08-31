@@ -18,13 +18,13 @@ function iran_map_register_settings() {
 		'iran_map_options', 
 		'iran_map_options', 
 		'iran_map_callback_validate_options' 
-    ); 
-	
+	);
+
 
 	add_settings_section( 
-        'iran_map_section_color', 
+        'iran_map_section_settings', 
         __( 'Customize Iran Map', 'iran-map' ),
-		'iran_map_callback_section_color', 
+		'iran_map_callback_section_settings', 
 		'iran-map'
 	);
 
@@ -37,12 +37,22 @@ function iran_map_register_settings() {
 	);
 
 
+
+	add_settings_field(
+		'iran_map_shortcut_code',
+		__( 'Show map', 'iran-map' ),
+		'iran_map_callback_show_map',
+		'iran-map',
+		'iran_map_section_settings'
+	);
+
+
 	add_settings_field(
 		'custom_color',
 		__( 'Custom color', 'iran-map' ),
 		'iran_map_color_callback_field_select',
 		'iran-map',
-		'iran_map_section_color',
+		'iran_map_section_settings',
 		[ 'id' => 'custom_color', 'label' => __( 'Select color scheme for iran map', 'iran-map' ) ]
 	);
 
