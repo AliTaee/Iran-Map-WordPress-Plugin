@@ -51,8 +51,6 @@ if ( is_admin() ) {
 }
 
 
-
-
 // include dependencies in public area
 include_once plugin_dir_path( __FILE__ ) . 'public/display-map.php';
 
@@ -91,7 +89,15 @@ register_uninstall_hook( __FILE__, 'iran_map_on_uninstall' );
 function iran_map_options_default() {
 
 	return array(
-        'custom_color'           => 'default',
+        'custom_color'      => 'default',
+        'link_isfahan'      => 'https://www.example.com/',
+        'link_tehran'       => 'https://www.example.com/',
+        'link_shiraz'       => 'https://www.example.com/',
+        'link_mashhad'      => 'https://www.example.com/',
+        'link_yazd'         => 'https://www.example.com/',
+        'link_semnan'       => 'https://www.example.com/',
+        'link_kerman'       => 'https://www.example.com/',
+        'link_khuzestan'    => 'https://www.example.com/',
 	);
 
 }
