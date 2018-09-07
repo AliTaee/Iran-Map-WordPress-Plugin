@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 // register shortcode to display iran map 
-function display_shortcode_iran_map() {
+function iran_map_display_shortcode() {
 
     $options = get_option( 'iran_map_options', iran_map_options_default() );
     
@@ -370,4 +370,4 @@ function display_shortcode_iran_map() {
         </circle>
     </svg>';
 }
-add_shortcode( 'display_iran_map', 'display_shortcode_iran_map' );
+add_shortcode( 'display_iran_map', 'iran_map_display_shortcode' );

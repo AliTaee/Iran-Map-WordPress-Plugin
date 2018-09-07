@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-31 16:56+0430\n"
+"POT-Creation-Date: 2018-09-02 21:57+0430\n"
 "PO-Revision-Date: 2018-08-29 22:39+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -76,10 +76,250 @@ msgstr ""
 msgid "Select color scheme for iran map"
 msgstr ""
 
-#: admin/settings-register.php:62
+#: admin/settings-register.php:63
+msgid "Tehran link"
+msgstr ""
+
+#: admin/settings-register.php:67
+msgid "Insert link for tehran"
+msgstr ""
+
+#: admin/settings-register.php:73
 msgid "Esfahan link"
 msgstr ""
 
-#: admin/settings-register.php:66
+#: admin/settings-register.php:77
 msgid "Insert link for esfahah"
+msgstr ""
+
+#: admin/settings-register.php:83
+msgid "fars link"
+msgstr ""
+
+#: admin/settings-register.php:87
+msgid "Insert link for fars"
+msgstr ""
+
+#: admin/settings-register.php:93
+msgid "Mashhad link"
+msgstr ""
+
+#: admin/settings-register.php:97
+msgid "Insert link for mashhad"
+msgstr ""
+
+#: admin/settings-register.php:103
+msgid "Yazd link"
+msgstr ""
+
+#: admin/settings-register.php:107
+msgid "Insert link for Yazd"
+msgstr ""
+
+#: admin/settings-register.php:113
+msgid "Semnan link"
+msgstr ""
+
+#: admin/settings-register.php:117
+msgid "Insert link for semnan"
+msgstr ""
+
+#: admin/settings-register.php:123
+msgid "Kerman link"
+msgstr ""
+
+#: admin/settings-register.php:127
+msgid "Insert link for kerman"
+msgstr ""
+
+#: admin/settings-register.php:133
+msgid "Khozestan link"
+msgstr ""
+
+#: admin/settings-register.php:137
+msgid "Insert link for khozestan"
+msgstr ""
+
+#: admin/settings-register.php:143
+msgid "Noth khorasan link"
+msgstr ""
+
+#: admin/settings-register.php:147
+msgid "Insert link for noth khorasan"
+msgstr ""
+
+#: admin/settings-register.php:153
+msgid "South khorasan link"
+msgstr ""
+
+#: admin/settings-register.php:157
+msgid "Insert link for south khorasan"
+msgstr ""
+
+#: admin/settings-register.php:163
+msgid "Sistan and baluchistan link"
+msgstr ""
+
+#: admin/settings-register.php:167
+msgid "Insert link for sistan and baluchistan"
+msgstr ""
+
+#: admin/settings-register.php:173
+msgid "Hormozgan link"
+msgstr ""
+
+#: admin/settings-register.php:177
+msgid "Insert link for hormozgan"
+msgstr ""
+
+#: admin/settings-register.php:183
+msgid "Bushehr link"
+msgstr ""
+
+#: admin/settings-register.php:187
+msgid "Insert link for Bushehr"
+msgstr ""
+
+#: admin/settings-register.php:193
+msgid "Ilam link"
+msgstr ""
+
+#: admin/settings-register.php:197
+msgid "Insert link for ilam"
+msgstr ""
+
+#: admin/settings-register.php:203
+msgid "Kermanshah link"
+msgstr ""
+
+#: admin/settings-register.php:207
+msgid "Insert link for Kermanshah"
+msgstr ""
+
+#: admin/settings-register.php:213
+msgid "Khurdestan link"
+msgstr ""
+
+#: admin/settings-register.php:217
+msgid "Insert link for Khurdestan"
+msgstr ""
+
+#: admin/settings-register.php:223
+msgid "Qom link"
+msgstr ""
+
+#: admin/settings-register.php:227
+msgid "Insert link for qom"
+msgstr ""
+
+#: admin/settings-register.php:233
+msgid "Markazi link"
+msgstr ""
+
+#: admin/settings-register.php:237
+msgid "Insert link for markazi"
+msgstr ""
+
+#: admin/settings-register.php:243
+msgid "Qazvin link"
+msgstr ""
+
+#: admin/settings-register.php:247
+msgid "Insert link for qazvin"
+msgstr ""
+
+#: admin/settings-register.php:253
+msgid "West Azarbayijan link"
+msgstr ""
+
+#: admin/settings-register.php:257
+msgid "Insert link for west azarbayijan"
+msgstr ""
+
+#: admin/settings-register.php:263
+msgid "East Azarbayijan link"
+msgstr ""
+
+#: admin/settings-register.php:267
+msgid "Insert link for east azarbayijan"
+msgstr ""
+
+#: admin/settings-register.php:273
+msgid "Ardebil link"
+msgstr ""
+
+#: admin/settings-register.php:277
+msgid "Insert link for ardebil"
+msgstr ""
+
+#: admin/settings-register.php:283
+msgid "Lorestan link"
+msgstr ""
+
+#: admin/settings-register.php:287
+msgid "Insert link for lorestan"
+msgstr ""
+
+#: admin/settings-register.php:293
+msgid "Gilan link"
+msgstr ""
+
+#: admin/settings-register.php:297
+msgid "Insert link for gilan"
+msgstr ""
+
+#: admin/settings-register.php:303
+msgid "Mazandaran link"
+msgstr ""
+
+#: admin/settings-register.php:307
+msgid "Insert link for mazandaran"
+msgstr ""
+
+#: admin/settings-register.php:313
+msgid "Golestan link"
+msgstr ""
+
+#: admin/settings-register.php:317
+msgid "Insert link for Golestan"
+msgstr ""
+
+#: admin/settings-register.php:323
+msgid "Hamedan link"
+msgstr ""
+
+#: admin/settings-register.php:327
+msgid "Insert link for hamedan"
+msgstr ""
+
+#: admin/settings-register.php:333
+msgid "Zanjan link"
+msgstr ""
+
+#: admin/settings-register.php:337
+msgid "Insert link for zanjan"
+msgstr ""
+
+#: admin/settings-register.php:343
+msgid "Chahar mahale bakhtiyari link"
+msgstr ""
+
+#: admin/settings-register.php:347
+msgid "Insert link for Chahar mahale bakhtiyari"
+msgstr ""
+
+#: admin/settings-register.php:353
+msgid "Kohgiloye va boyer ahmad link"
+msgstr ""
+
+#: admin/settings-register.php:357
+msgid "Insert link for kohgiloye va boyer ahmad"
+msgstr ""
+
+#: admin/settings-register.php:363
+msgid "Karaj link"
+msgstr ""
+
+#: admin/settings-register.php:367
+msgid "Insert link for Karaj"
 msgstr ""

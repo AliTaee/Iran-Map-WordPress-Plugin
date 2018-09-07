@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-31 16:56+0430\n"
-"PO-Revision-Date: 2018-08-31 16:58+0430\n"
+"POT-Creation-Date: 2018-09-02 21:58+0430\n"
+"PO-Revision-Date: 2018-09-02 22:14+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: en\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -75,10 +75,250 @@ msgstr "رنگ سفارشی"
 msgid "Select color scheme for iran map"
 msgstr "رنگ تم نقشه ایران را انتخاب نمایید"
 
-#: admin/settings-register.php:62
+#: admin/settings-register.php:63
+msgid "Tehran link"
+msgstr "لینک تهران"
+
+#: admin/settings-register.php:67
+msgid "Insert link for tehran"
+msgstr "لینک تهران را درج نمایید"
+
+#: admin/settings-register.php:73
 msgid "Esfahan link"
 msgstr "لینک اصفهان"
 
-#: admin/settings-register.php:66
+#: admin/settings-register.php:77
 msgid "Insert link for esfahah"
 msgstr "لینک اصفهان را درج نمایید"
+
+#: admin/settings-register.php:83
+msgid "fars link"
+msgstr "لینک فارس"
+
+#: admin/settings-register.php:87
+msgid "Insert link for fars"
+msgstr "لینک فارس  را درج نمایید"
+
+#: admin/settings-register.php:93
+msgid "Mashhad link"
+msgstr "لینک مشهد"
+
+#: admin/settings-register.php:97
+msgid "Insert link for mashhad"
+msgstr "لینک مشهد را درج نمایید"
+
+#: admin/settings-register.php:103
+msgid "Yazd link"
+msgstr "لینک یزد"
+
+#: admin/settings-register.php:107
+msgid "Insert link for Yazd"
+msgstr "لینک یزد  را درج نمایید"
+
+#: admin/settings-register.php:113
+msgid "Semnan link"
+msgstr "لینک سمنان"
+
+#: admin/settings-register.php:117
+msgid "Insert link for semnan"
+msgstr "لینک سمنان را درج نمایید"
+
+#: admin/settings-register.php:123
+msgid "Kerman link"
+msgstr "لینک کرمان"
+
+#: admin/settings-register.php:127
+msgid "Insert link for kerman"
+msgstr "لینک کرمان  را درج نمایید"
+
+#: admin/settings-register.php:133
+msgid "Khozestan link"
+msgstr "لینک خوزستان"
+
+#: admin/settings-register.php:137
+msgid "Insert link for khozestan"
+msgstr "لینک خوزستان را درج نمایید"
+
+#: admin/settings-register.php:143
+msgid "Noth khorasan link"
+msgstr "لینک خوراسان شمالی"
+
+#: admin/settings-register.php:147
+msgid "Insert link for noth khorasan"
+msgstr "لینک خوراسان شمالی را درج نمایید"
+
+#: admin/settings-register.php:153
+msgid "South khorasan link"
+msgstr "لینک خوراسان جنوبی"
+
+#: admin/settings-register.php:157
+msgid "Insert link for south khorasan"
+msgstr "لینک خوراسان جنوبی را درج نمایید"
+
+#: admin/settings-register.php:163
+msgid "Sistan and baluchistan link"
+msgstr "لینک سیستان و بلوچستان"
+
+#: admin/settings-register.php:167
+msgid "Insert link for sistan and baluchistan"
+msgstr "لینک سیستان و بلوچستان را درج نمایید"
+
+#: admin/settings-register.php:173
+msgid "Hormozgan link"
+msgstr "لینک هرمزگان"
+
+#: admin/settings-register.php:177
+msgid "Insert link for hormozgan"
+msgstr "لینک هرمزگان را درج نمایید"
+
+#: admin/settings-register.php:183
+msgid "Bushehr link"
+msgstr "لینک بوشهر"
+
+#: admin/settings-register.php:187
+msgid "Insert link for Bushehr"
+msgstr "لینک بوشهر  را درج نمایید"
+
+#: admin/settings-register.php:193
+msgid "Ilam link"
+msgstr "لینک ایلام"
+
+#: admin/settings-register.php:197
+msgid "Insert link for ilam"
+msgstr "لینک ایلام را درج نمایید"
+
+#: admin/settings-register.php:203
+msgid "Kermanshah link"
+msgstr "لینک کرمانشاه"
+
+#: admin/settings-register.php:207
+msgid "Insert link for Kermanshah"
+msgstr "لینک کرمانشاه را درج نمایید"
+
+#: admin/settings-register.php:213
+msgid "Khurdestan link"
+msgstr "لینک کردستان"
+
+#: admin/settings-register.php:217
+msgid "Insert link for Khurdestan"
+msgstr "لینک کردستان را درج نمایید"
+
+#: admin/settings-register.php:223
+msgid "Qom link"
+msgstr "لینک قم"
+
+#: admin/settings-register.php:227
+msgid "Insert link for qom"
+msgstr "لینک قم را درج نمایید"
+
+#: admin/settings-register.php:233
+msgid "Markazi link"
+msgstr "لینک مرکزی"
+
+#: admin/settings-register.php:237
+msgid "Insert link for markazi"
+msgstr "لینک مرکزی را درج نمایید"
+
+#: admin/settings-register.php:243
+msgid "Qazvin link"
+msgstr "لینک قزوین"
+
+#: admin/settings-register.php:247
+msgid "Insert link for qazvin"
+msgstr "لینک قزوین را درج نمایید"
+
+#: admin/settings-register.php:253
+msgid "West Azarbayijan link"
+msgstr "لینک آذربایجان شرقی"
+
+#: admin/settings-register.php:257
+msgid "Insert link for west azarbayijan"
+msgstr "لینک آذربایجان شرقی را درج نمایید"
+
+#: admin/settings-register.php:263
+msgid "East Azarbayijan link"
+msgstr "لینک آذربایجان غربی"
+
+#: admin/settings-register.php:267
+msgid "Insert link for east azarbayijan"
+msgstr "لینک آذربایجان غربی را درج نمایید"
+
+#: admin/settings-register.php:273
+msgid "Ardebil link"
+msgstr "لینک اردبیل"
+
+#: admin/settings-register.php:277
+msgid "Insert link for ardebil"
+msgstr "لینک اردبیل را درج نمایید"
+
+#: admin/settings-register.php:283
+msgid "Lorestan link"
+msgstr "لینک لرستان"
+
+#: admin/settings-register.php:287
+msgid "Insert link for lorestan"
+msgstr "لینک لرستان را درج نمایید"
+
+#: admin/settings-register.php:293
+msgid "Gilan link"
+msgstr "لینک گیلان"
+
+#: admin/settings-register.php:297
+msgid "Insert link for gilan"
+msgstr "لینک گیلان را درج نمایید"
+
+#: admin/settings-register.php:303
+msgid "Mazandaran link"
+msgstr "لینک مازندران"
+
+#: admin/settings-register.php:307
+msgid "Insert link for mazandaran"
+msgstr "لینک مازندران را درج نمایید"
+
+#: admin/settings-register.php:313
+msgid "Golestan link"
+msgstr "لینک گلستان"
+
+#: admin/settings-register.php:317
+msgid "Insert link for Golestan"
+msgstr "لینک گلستان را درج نمایید"
+
+#: admin/settings-register.php:323
+msgid "Hamedan link"
+msgstr "لینک همدان"
+
+#: admin/settings-register.php:327
+msgid "Insert link for hamedan"
+msgstr "لینک همدان را درج نمایید"
+
+#: admin/settings-register.php:333
+msgid "Zanjan link"
+msgstr "لینک زنجان"
+
+#: admin/settings-register.php:337
+msgid "Insert link for zanjan"
+msgstr "لینک زنجان را درج نمایید"
+
+#: admin/settings-register.php:343
+msgid "Chahar mahale bakhtiyari link"
+msgstr "لینک چهار محال بختیاری"
+
+#: admin/settings-register.php:347
+msgid "Insert link for Chahar mahale bakhtiyari"
+msgstr "لینک چهار محال بختیاری را درج نمایید"
+
+#: admin/settings-register.php:353
+msgid "Kohgiloye va boyer ahmad link"
+msgstr "لینک کهگیلویه و بویراحم"
+
+#: admin/settings-register.php:357
+msgid "Insert link for kohgiloye va boyer ahmad"
+msgstr "لینک کهگیلویه و بویراحمد را درج نمایید"
+
+#: admin/settings-register.php:363
+msgid "Karaj link"
+msgstr "لینک کرج"
+
+#: admin/settings-register.php:367
+msgid "Insert link for Karaj"
+msgstr "لینک کرج را درج نمایید"
