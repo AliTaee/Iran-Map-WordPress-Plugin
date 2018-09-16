@@ -1,0 +1,58 @@
+/* - Table of Css
+*
+* Typogeraphy
+* Img
+*
+*/
+
+/* Typogeraphy */
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/Yekan.eot);
+    src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff) format("woff"), url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iran-map-wrap {
+    font-family: "yekan";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.45;
+    font-size: 1em;
+}
+
+.iran-map-wrap p {margin-bottom: 1.3em;}
+
+.iran-map-wrap h1, .iran-map-wrap h2, .iran-map-wrap h3, .iran-map-wrap h4 {
+  font-family: "yekan";
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+.iran-map-wrap h1 {
+  margin-top: 0;
+  font-size: 2.441em;
+}
+
+.iran-map-wrap h2 {font-size: 1.953em;}
+
+.iran-map-wrap h3 {font-size: 1.563em;}
+
+.iran-map-wrap h4 {font-size: 1.25em;}
+
+.iran-map-wrap select {
+    height: 40px;
+}
+
+
+/* Img */
+img#iran-map-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    opacity: 0.88;
+}
+
+@media screen and ( max-width: 1400px ) { #iran-map-image { display: none; } }

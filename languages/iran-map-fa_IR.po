@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-02 21:58+0430\n"
-"PO-Revision-Date: 2018-09-02 22:14+0430\n"
+"PO-Revision-Date: 2018-09-07 17:23+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -309,7 +309,7 @@ msgstr "لینک چهار محال بختیاری را درج نمایید"
 
 #: admin/settings-register.php:353
 msgid "Kohgiloye va boyer ahmad link"
-msgstr "لینک کهگیلویه و بویراحم"
+msgstr "لینک کهگیلویه و بویراحمد"
 
 #: admin/settings-register.php:357
 msgid "Insert link for kohgiloye va boyer ahmad"

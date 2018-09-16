@@ -5,7 +5,7 @@ Plugin Name:    Iran Map
 Description:    Interactive Iran Map, admin can link each city to spicific link. 
 Author:         Ali Taee
 Author uri:     www.alitaee.xyz
-Version:        1.0.0
+Version:        1.2.0
 License:        GPL2
 License URI:    https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    iran-map
@@ -56,8 +56,19 @@ include_once plugin_dir_path( __FILE__ ) . 'public/display-map.php';
 
 
 // include dependencies in public and admin area
-include_once plugin_dir_path( __FILE__ ) . 'core/core-functions.php';
+include_once plugin_dir_path( __FILE__ ) . 'includes/core-functions.php';
 
+
+
+// enqueue admin style iran map
+function iran_map_enqueue_style_admin() {
+	
+	$iran_map_src = plugin_dir_url( __FILE__ ) .'admin/css/style-admin.css';
+
+	wp_enqueue_style( 'iran-map-admin', $iran_map_src, array(), null, 'all' );
+
+}
+add_action( 'admin_enqueue_scripts', 'iran_map_enqueue_style_admin' );
 
 
 
@@ -90,37 +101,37 @@ function iran_map_options_default() {
 
 	return array(
         'custom_color'                      => 'default',
-        'link_isfahan'                      => 'https://www.example.com/',
-        'link_tehran'                       => 'https://www.example.com/',
-        'link_fars'                         => 'https://www.example.com/',
-        'link_mashhad'                      => 'https://www.example.com/',
-        'link_yazd'                         => 'https://www.example.com/',
-        'link_semnan'                       => 'https://www.example.com/',
-        'link_kerman'                       => 'https://www.example.com/',
-        'link_khuzestan'                    => 'https://www.example.com/',
-        'link_khorasan_shomali'             => 'https://www.example.com/',
-        'link_khorasan_jonobi'              => 'https://www.example.com/',
-        'link_sistan_baluchistan'           => 'https://www.example.com/',
-        'link_hormozgan'                    => 'https://www.example.com/',
-        'link_bushehr'                      => 'https://www.example.com/',
-        'link_ilam'                         => 'https://www.example.com/',
-        'link_kermanshah'                   => 'https://www.example.com/',
-        'link_kurdestan'                    => 'https://www.example.com/',
-        'link_qom'                          => 'https://www.example.com/',
-        'link_markazi'                      => 'https://www.example.com/',
-        'link_qazvin'                       => 'https://www.example.com/',
-        'link_west_azarbayijan'             => 'https://www.example.com/',
-        'link_east_azarbayijan'             => 'https://www.example.com/',
-        'link_ardebil'                      => 'https://www.example.com/',
-        'link_lorestan'                     => 'https://www.example.com/',
-        'link_gilan'                        => 'https://www.example.com/',
-        'link_mazandaran'                   => 'https://www.example.com/',
-        'link_golestan'                     => 'https://www.example.com/',
-        'link_hamedan'                      => 'https://www.example.com/',
-        'link_zanjan'                       => 'https://www.example.com/',
-        'link_chahar_mahale_bakhtiyari'     => 'https://www.example.com/',
-        'link_kohgiloye_va_boyer_ahmad'     => 'https://www.example.com/',
-        'link_karaj'                        => 'https://www.example.com/',
+        'link_isfahan'                      => '#',
+        'link_tehran'                       => '#',
+        'link_fars'                         => '#',
+        'link_mashhad'                      => '#',
+        'link_yazd'                         => '#',
+        'link_semnan'                       => '#',
+        'link_kerman'                       => '#',
+        'link_khuzestan'                    => '#',
+        'link_khorasan_shomali'             => '#',
+        'link_khorasan_jonobi'              => '#',
+        'link_sistan_baluchistan'           => '#',
+        'link_hormozgan'                    => '#',
+        'link_bushehr'                      => '#',
+        'link_ilam'                         => '#',
+        'link_kermanshah'                   => '#',
+        'link_kurdestan'                    => '#',
+        'link_qom'                          => '#',
+        'link_markazi'                      => '#',
+        'link_qazvin'                       => '#',
+        'link_west_azarbayijan'             => '#',
+        'link_east_azarbayijan'             => '#',
+        'link_ardebil'                      => '#',
+        'link_lorestan'                     => '#',
+        'link_gilan'                        => '#',
+        'link_mazandaran'                   => '#',
+        'link_golestan'                     => '#',
+        'link_hamedan'                      => '#',
+        'link_zanjan'                       => '#',
+        'link_chahar_mahale_bakhtiyari'     => '#',
+        'link_kohgiloye_va_boyer_ahmad'     => '#',
+        'link_karaj'                        => '#',
 	);
 
 }

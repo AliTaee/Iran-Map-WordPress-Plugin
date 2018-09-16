@@ -19,7 +19,7 @@ function iran_map_display_settings_page() {
 	
 	?>
 	
-	<div class="wrap">
+	<div class="iran-map-wrap">
 		<h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
 		<form action="options.php" method="post">
 			
@@ -37,6 +37,12 @@ function iran_map_display_settings_page() {
 			?>
 			
 		</form>
+		<img id="iran-map-image" src="
+		<?php 
+			$iran_map_img_background = plugin_dir_url( __FILE__ ) .'/img/iran-map.png'; 
+			echo $iran_map_img_background;
+		?>
+		" alt="iran map">
 	</div>
 	
 	<?php
